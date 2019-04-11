@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matrias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/clock_gen/clock_gen.srcs/sources_1/new/clock.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clock'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matrias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/clock_gen/clock_gen.srcs/sources_1/new/top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top_level'

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Apr  4 13:43:46 2019
+# Process ID: 11577
+# Current directory: /home/filipe/Documentos/Matrias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/clock_gen/clock_gen.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/filipe/Documentos/Matrias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/clock_gen/clock_gen.sim/sim_1/behav/xsim/xsim.dir/top_level_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/filipe/Documentos/Matrias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/clock_gen/clock_gen.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/filipe/Documentos/Matrias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/clock_gen/clock_gen.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/filipe/Documentos/Matrias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/clock_gen/clock_gen.sim/sim_1/behav/xsim/xsim.dir/top_level_behav/webtalk/xsim_webtalk.tcl -notrace

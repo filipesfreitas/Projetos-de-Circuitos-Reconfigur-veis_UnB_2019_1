@@ -1,0 +1,4 @@
+Running: xsim.dir/ula_fixpoint_tb_behav/xsimk -simmode gui -wdb ula_fixpoint_tb_behav.wdb -simrunnum 0 -socket 43915
+Design successfully loaded
+Design Loading Memory Usage: 42832 KB (Peak: 42832 KB)
+Design Loading CPU Usage: 30 ms
