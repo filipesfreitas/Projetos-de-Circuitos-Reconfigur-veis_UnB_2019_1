@@ -37,6 +37,7 @@ entity sigma_k is
            reset : in STD_LOGIC;
            clk : in STD_LOGIC;
            sigmak_0 : in STD_LOGIC_VECTOR (26 downto 0);
+           sigmak_mais_1 : in STD_LOGIC_VECTOR (26 downto 0);
            sigmak : out STD_LOGIC_VECTOR (26 downto 0));
 end sigma_k;
 
