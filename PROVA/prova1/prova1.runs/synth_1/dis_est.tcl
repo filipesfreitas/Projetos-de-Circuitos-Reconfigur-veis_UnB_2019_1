@@ -25,6 +25,7 @@ create_project -in_memory -part xc7a35tcpg236-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
+<<<<<<< HEAD
 set_property webtalk.parent_dir /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.cache/wt [current_project]
 set_property parent.project_path /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
@@ -38,6 +39,26 @@ read_vhdl -library xil_defaultlib {
   /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/sigmak_1.vhd
   /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/x_fus.vhd
   /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/dis_est.vhd
+=======
+set_property webtalk.parent_dir C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.cache/wt [current_project]
+set_property parent.project_path C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.xpr [current_project]
+set_property default_lib xil_defaultlib [current_project]
+set_property target_language Verilog [current_project]
+set_property ip_output_repo c:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.cache/ip [current_project]
+set_property ip_cache_permissions {read write} [current_project]
+read_vhdl -library xil_defaultlib {
+  C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/fpupack.vhd
+  C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/addsubfsm_v6.vhd
+  C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/divNR.vhd
+  C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/entities.vhd
+  C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/fixMul.vhd
+  C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/gk_1.vhd
+  C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/multiplierfsm_v2.vhd
+  C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/sigma_k.vhd
+  C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/sigmak.vhd
+  C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/x_fus.vhd
+  C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/dis_est.vhd
+>>>>>>> a434efe0d53e484c909a8a9132c912c08870f6f4
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

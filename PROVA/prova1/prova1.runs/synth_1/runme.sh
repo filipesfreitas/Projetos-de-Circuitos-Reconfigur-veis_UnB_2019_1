@@ -20,7 +20,11 @@ else
 fi
 export LD_LIBRARY_PATH
 
+<<<<<<< HEAD
 HD_PWD='/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.runs/synth_1'
+=======
+HD_PWD='C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.runs/synth_1'
+>>>>>>> a434efe0d53e484c909a8a9132c912c08870f6f4
 cd "$HD_PWD"
 
 HD_LOG=runme.log

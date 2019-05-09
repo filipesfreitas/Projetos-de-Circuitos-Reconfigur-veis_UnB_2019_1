@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+<<<<<<< HEAD:PROVA/prova1/prova1.runs/impl_1/.init_design.begin.rst
+    <Process Command=".planAhead." Owner="root" Host="" Pid="5898">
+=======
+    <Process Command=".planAhead." Owner="ana01" Host="LAPTOP-IS9L78OF" Pid="22488">
+>>>>>>> a434efe0d53e484c909a8a9132c912c08870f6f4:LISTAS/Ex1_ping_pong_led/Ex1_ping_pong_led.runs/impl_1/.init_design.begin.rst
+    </Process>
+</ProcessHandle>
