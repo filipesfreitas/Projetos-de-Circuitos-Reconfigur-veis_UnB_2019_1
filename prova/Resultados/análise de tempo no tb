@@ -1,0 +1,5 @@
+Latência total: 135 ns
+throughput: 30 ns
+pode ser observada ao rodar a simulação com o arquivo tb_p1
+observação: resultado estipulado ao se observar as formas de onda da simulação.
+Forma de onda salva em tb_p1_behav.wcfg

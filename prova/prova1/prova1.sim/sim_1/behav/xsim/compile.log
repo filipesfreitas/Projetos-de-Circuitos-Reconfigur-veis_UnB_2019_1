@@ -1,0 +1,42 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/fpupack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'addsubfsm_v6'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/dis_est.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dis_est'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'divNR'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/entities.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/fixMul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fixMul'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/gk_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gk_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/multiplierfsm_v2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'multiplierfsm_v2'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigma_k.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sigma_k'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigmak.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sigmak'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/x_fus.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'x_fus'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/Simulacoes/tb_p1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_p1'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/dis_est.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dis_est'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigmak.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sigmak'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/dis_est.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dis_est'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/gk_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gk_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigma_k.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sigma_k'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigmak.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sigmak'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/x_fus.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'x_fus'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/Simulacoes/tb_p1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_p1'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/Simulacoes/tb_p1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_p1'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/Simulacoes/tb_p1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_p1'

@@ -1,0 +1,4 @@
+dentro do diretório do projeto há duas pastas: operadorFloatingPoint: com os módulos de add, sub e divisão que foram instanciados e Simulacoes: com os scripts do matlab para simulção automática e comparação dos resultados.
+Os arquivos de simulação automática depois de gerados e verificados foram adicionados ao projeto n parte de simulação.
+Ainda na pasta de simulações há os arquivos de instanciação das memórias, .coe.
+
