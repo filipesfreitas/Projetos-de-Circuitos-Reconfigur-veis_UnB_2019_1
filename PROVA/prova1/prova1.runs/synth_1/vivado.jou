@@ -2,11 +2,11 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Tue May  7 12:57:28 2019
-# Process ID: 18472
-# Current directory: C:/Users/ana01/Desktop/prova1/prova1.runs/synth_1
+# Start of session at: Tue May  7 17:31:26 2019
+# Process ID: 22076
+# Current directory: C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.runs/synth_1
 # Command line: vivado.exe -log dis_est.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dis_est.tcl
-# Log file: C:/Users/ana01/Desktop/prova1/prova1.runs/synth_1/dis_est.vds
-# Journal file: C:/Users/ana01/Desktop/prova1/prova1.runs/synth_1\vivado.jou
+# Log file: C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.runs/synth_1/dis_est.vds
+# Journal file: C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source dis_est.tcl -notrace

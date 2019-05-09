@@ -1,0 +1,1 @@
+-wto "cdd6cbfef9864c65a3fe6d20e0f0f00f" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_ping_pong_behav" "xil_defaultlib.tb_ping_pong" -log "elaborate.log" 
