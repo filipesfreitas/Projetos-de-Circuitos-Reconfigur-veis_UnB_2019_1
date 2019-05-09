@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1557244643">
-  <File Type="PA-TCL" Name="dis_est.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="dis_est_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="dis_est_reports.tcl"/>
-  <File Type="RDS-RDS" Name="dis_est.vds"/>
-  <File Type="RDS-UTIL" Name="dis_est_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="dis_est_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="dis_est.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="dis_est_timing_summary_synth.rpt"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1557371199">
   <File Type="VDS-TIMING-PB" Name="dis_est_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="dis_est_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="dis_est.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="dis_est_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="dis_est_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="dis_est_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="dis_est.vds"/>
+  <File Type="REPORTS-TCL" Name="dis_est_reports.tcl"/>
+  <File Type="PA-TCL" Name="dis_est.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PPRDIR/../../../../Downloads/Circuitos_Reconfiguraveis-master/operadorFloatingPoint/fpupack.vhd">
+    <File Path="$PPRDIR/operadorFloatingPoint/fpupack.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -57,32 +57,69 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../../../Downloads/Circuitos_Reconfiguraveis-master/operadorFloatingPoint/entities.vhd">
+    <File Path="$PSRCDIR/sources_1/imports/Matérias/Circuitos_Reconfiguraveis/operadorFloatingPoint/entities.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Circuitos_Reconfiguraveis/operadorFloatingPoint/entities.vhd"/>
+        <Attr Name="ImportTime" Val="1555591614"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/operadorFloatingPoint/entities.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../../../Downloads/Circuitos_Reconfiguraveis-master/operadorFloatingPoint/divNR.dcp">
+    <File Path="$PPRDIR/operadorFloatingPoint/divNR.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/operadorFloatingPoint/divNR.dcp">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../../../Downloads/Circuitos_Reconfiguraveis-master/operadorFloatingPoint/multiplierfsm_v2.dcp">
+    <File Path="$PPRDIR/operadorFloatingPoint/multiplierfsm_v2.dcp">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../../../Downloads/Circuitos_Reconfiguraveis-master/operadorFloatingPoint/addsubfsm_v6.dcp">
+    <File Path="$PPRDIR/operadorFloatingPoint/multiplierfsm_v2.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/operadorFloatingPoint/addsubfsm_v6.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/operadorFloatingPoint/addsubfsm_v6.dcp">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/operadorFloatingPoint/fixMul.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <Config>
@@ -92,6 +129,14 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/prova1/pcrula.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/pcrula.xdc"/>
+        <Attr Name="ImportTime" Val="1557370284"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
@@ -103,9 +148,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

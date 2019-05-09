@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Circuitos_Reconfiguraveis/operadorFloatingPoint/fpupack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Circuitos_Reconfiguraveis/operadorFloatingPoint/fixMul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fixMul'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/filipe/Documentos/Matérias/Circuitos_Reconfiguraveis/operadorFloatingPoint/divNR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'divNR'

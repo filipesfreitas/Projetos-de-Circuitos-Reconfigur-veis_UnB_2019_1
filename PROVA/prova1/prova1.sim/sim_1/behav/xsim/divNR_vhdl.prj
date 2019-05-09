@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../Circuitos_Reconfiguraveis/operadorFloatingPoint/fpupack.vhd" \
+"../../../../../../../Circuitos_Reconfiguraveis/operadorFloatingPoint/fixMul.vhd" \
+"../../../../../../../Circuitos_Reconfiguraveis/operadorFloatingPoint/divNR.vhd" \
+
+# Do not sort compile order
+nosort

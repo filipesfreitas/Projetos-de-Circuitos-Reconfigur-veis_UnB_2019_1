@@ -60,19 +60,23 @@ proc step_failed { step } {
   close $ch
 }
 
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 
 start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
+  set_param synth.incrementalSynthesisCache ./.Xil/Vivado-4770-filipe/incrSyn
   create_project -in_memory -part xc7a35tcpg236-1
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Users/ana01/Desktop/prova1/prova1.cache/wt [current_project]
-  set_property parent.project_path C:/Users/ana01/Desktop/prova1/prova1.xpr [current_project]
-  set_property ip_output_repo C:/Users/ana01/Desktop/prova1/prova1.cache/ip [current_project]
+  set_property webtalk.parent_dir /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.cache/wt [current_project]
+  set_property parent.project_path /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.xpr [current_project]
+  set_property ip_output_repo /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet C:/Users/ana01/Desktop/prova1/prova1.runs/synth_1/dis_est.dcp
+  add_files -quiet /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.runs/synth_1/dis_est.dcp
+  read_xdc /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/constrs_1/imports/prova1/pcrula.xdc
   link_design -top dis_est -part xc7a35tcpg236-1
   close_msg_db -file init_design.pb
 } RESULT]
