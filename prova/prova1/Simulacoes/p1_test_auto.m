@@ -16,6 +16,11 @@ sz_arq_bin = fopen('sz_arq_bin.txt','w');
 sk_arq_float = fopen('sk_arq_float.txt','w');
 sk_arq_bin = fopen('sk_arq_bin.txt','w');
 
+sk = (rand()+2)/4;% escala 0.5 a 0.75
+sz = (rand()+(1/15))/(10/15);% escala 0.1 a 0.25
+sk_bin = float2bin(EW,FW,sk);
+sz_bin = float2bin(EW,FW,sz);
+
 for i =1:100
   Xul = rand();
   Xir = rand();
@@ -29,10 +34,7 @@ for i =1:100
 end
 
 
-sk = (rand()+2)/4;% escala 0.5 a 0.75
-sz = (rand()+(1/15))/(10/15);% escala 0.1 a 0.25
-sk_bin = float2bin(EW,FW,sk);
-sz_bin = float2bin(EW,FW,sz);
+
 
 fprintf(sz_arq_float,'%f\n',sz);
 fprintf(sz_arq_bin,'%s\n',sz_bin);

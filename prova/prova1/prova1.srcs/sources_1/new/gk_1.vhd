@@ -20,11 +20,7 @@ architecture Behavioral of gk_1 is
   signal ready_add_aux: STD_LOGIC;
    
 begin
-  process(clk,start,reset)
-  begin
-    if reset = '1' then
-    end if;
-  end process;
+--(sigmak + sigmaz)
 add0: addsubfsm_v6 port map(
 		reset 	 => reset,
 		clk	 	 => clk,   

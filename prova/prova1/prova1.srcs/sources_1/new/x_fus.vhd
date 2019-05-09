@@ -38,12 +38,12 @@ entity x_fus is
            XIR : in STD_LOGIC_VECTOR (26 downto 0);
            XUL : in STD_LOGIC_VECTOR (26 downto 0);
            clk : in STD_LOGIC;
+           reset : in STD_LOGIC;
            start : in STD_LOGIC;
            gk_1 : in STD_LOGIC_VECTOR (26 downto 0));
 end x_fus;
 
 architecture Behavioral of x_fus is
-signal reset: STD_LOGIC;--modificar depois
 signal ready_sub: STD_LOGIC;--modificar depois
 signal ready_add: STD_LOGIC;--modificar depois
 signal ready_mul: STD_LOGIC;--modificar depois
@@ -68,7 +68,7 @@ begin
 			clk	 	 => clk,   
 			op_a	 	 => sub_result,
 			op_b	 	 => gk_1,
-			start_i	 => ready_sub,--depois da subtração começa a multiplicação
+			start_i	 => ready_sub,--depois da subtraï¿½ï¿½o comeï¿½a a multiplicaï¿½ï¿½o
 			mul_out   => res_mult,
 			ready_mul => ready_mul);
 
