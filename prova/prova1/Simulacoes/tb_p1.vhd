@@ -57,14 +57,10 @@ signal reset : std_logic := '0';
 signal clk : std_logic := '0';
 signal start : std_logic := '0';
 
-signal sigmak_0_aux : std_logic_vector(FP_WIDTH-1 downto 0) := (others=>'0');
-signal sigma_z_aux : std_logic_vector(FP_WIDTH-1 downto 0) := (others=>'0');
-
 signal Xir_aux : std_logic_vector(FP_WIDTH-1 downto 0) := (others=>'0');
 signal Xul_aux : std_logic_vector(FP_WIDTH-1 downto 0) := (others=>'0');
 signal x_fus_est_aux : std_logic_vector(FP_WIDTH-1 downto 0) := (others=>'0');
 
-signal neuronout : std_logic_vector(FP_WIDTH-1 downto 0) := (others=>'0');
 signal ready : std_logic := '0';
 -- conter for WOMenable
  signal WOMenable : std_logic := '0';
@@ -75,11 +71,10 @@ signal ready : std_logic := '0';
 --type t_mult  is array( 0 to num_mult_neuronio-1 ) of saida_mult;
 
 component dis_est is
-  Port ( sigmak_0 : in STD_LOGIC_VECTOR (26 downto 0);
+  Port (
   start : in STD_LOGIC;
   reset: in STD_LOGIC;
   clk : in STD_LOGIC;
-  sigma_z : in STD_LOGIC_VECTOR (26 downto 0);
   XIR : in STD_LOGIC_VECTOR (26 downto 0);
   XUL : in STD_LOGIC_VECTOR (26 downto 0);
   ready : out STD_LOGIC;
@@ -102,60 +97,17 @@ begin
     
     -- cria o start 
     first_start <= '0', '1' after 55 ns, '0' after 65 ns; 
-    
+ 
     -- sobel architecture intanciation                    
     uut: dis_est port map(
         reset     => reset,  
         clk       => clk,
         start     => start,
         ready     => ready,
-        sigmak_0 => sigmak_0_aux,
-        sigma_z => sigma_z_aux,
         XIR => Xir_aux,
         XUL => Xul_aux,
         x_fus_est => x_fus_est_aux);
-	
-        rom_sigmak_0: process
-        file infile	: text is in "sk_arq_bin.txt"; -- input file declaration
-        variable inline : line; -- line number declaration
-        variable dataf  : std_logic_vector(FP_WIDTH-1 downto 0); 
-        begin
-            while (not endfile(infile)) loop
-                wait until rising_edge(clk);
-                    if first_start='1' or ready='1' then
-                        readline(infile, inline);
-                        read(inline,dataf);
-                        sigmak_0_aux <= dataf;
-                        start <= '1';
-                    else
-                        start <= '0';
-                    end if;
-                    
-            end loop;
-            assert not endfile(infile) report "FIM DA LEITURA" severity warning;
-            wait;        
-        end process;
 
-        rom_sigma_z: process
-        file infile	: text is in "sz_arq_bin.txt"; -- input file declaration
-        variable inline : line; -- line number declaration
-        variable dataf  : std_logic_vector(FP_WIDTH-1 downto 0); 
-        begin
-            while (not endfile(infile)) loop
-                wait until rising_edge(clk);
-                    if first_start='1' or ready='1' then
-                        readline(infile, inline);
-                        read(inline,dataf);
-                        sigma_z_aux <= dataf;
-                        start <= '1';
-                    else
-                        start <= '0';
-                    end if;
-                    
-            end loop;
-            assert not endfile(infile) report "FIM DA LEITURA" severity warning;
-            wait;        
-        end process;
         
     rom_Xul: process
     file infile	: text is in "Xul_arq_bin.txt"; -- input file declaration
@@ -203,7 +155,7 @@ begin
     
     wom_n1 : process(clk) 
     variable out_line : line;
-    file out_file     : text is out "Xfus_arq_float_est_vhdl.txt";
+    file out_file     : text is out "Xfus_arq_est_vhdl.txt";
     begin
         -- write line to file every clock
         if (rising_edge(clk)) then

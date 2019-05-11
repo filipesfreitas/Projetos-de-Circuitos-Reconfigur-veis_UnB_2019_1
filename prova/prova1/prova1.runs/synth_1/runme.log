@@ -4,7 +4,7 @@
 
 
 ****** Vivado v2018.3 (64-bit)
-  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
   **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 
@@ -14,115 +14,121 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 6012 
+INFO: Helper process launched with PID 9510 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 363.535 ; gain = 100.809
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1375.355 ; gain = 71.820 ; free physical = 161 ; free virtual = 4138
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'dis_est' [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/dis_est.vhd:17]
-INFO: [Synth 8-3491] module 'gk_1' declared at 'C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/gk_1.vhd:15' bound to instance 'gk_1comp' of component 'gk_1' [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/dis_est.vhd:67]
-INFO: [Synth 8-638] synthesizing module 'gk_1' [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/gk_1.vhd:25]
-INFO: [Synth 8-3491] module 'addsubfsm_v6' declared at 'C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/addsubfsm_v6.vhd:17' bound to instance 'add0' of component 'addsubfsm_v6' [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/gk_1.vhd:36]
-INFO: [Synth 8-638] synthesizing module 'addsubfsm_v6' [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/addsubfsm_v6.vhd:28]
-WARNING: [Synth 8-6014] Unused sequential element sl_reg was removed.  [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/addsubfsm_v6.vhd:118]
-WARNING: [Synth 8-6014] Unused sequential element sign_reg was removed.  [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/addsubfsm_v6.vhd:200]
-WARNING: [Synth 8-6014] Unused sequential element s_res_exp_reg was removed.  [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/addsubfsm_v6.vhd:201]
-WARNING: [Synth 8-6014] Unused sequential element out_man_reg was removed.  [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/addsubfsm_v6.vhd:202]
-WARNING: [Synth 8-6014] Unused sequential element pos_reg was removed.  [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/addsubfsm_v6.vhd:226]
-INFO: [Synth 8-256] done synthesizing module 'addsubfsm_v6' (1#1) [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/addsubfsm_v6.vhd:28]
-INFO: [Synth 8-3491] module 'divNR' declared at 'C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/divNR.vhd:14' bound to instance 'divGk' of component 'divNR' [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/gk_1.vhd:47]
-INFO: [Synth 8-638] synthesizing module 'divNR' [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/divNR.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'dis_est' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/dis_est.vhd:15]
+INFO: [Synth 8-3491] module 'sigma_k' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigma_k.vhd:34' bound to instance 'sigma_kcomp' of component 'sigma_k' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/dis_est.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'sigma_k' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigma_k.vhd:44]
+WARNING: [Synth 8-614] signal 'cnt' is read in the process but is not in the sensitivity list [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigma_k.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'sigma_k' (1#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigma_k.vhd:44]
+INFO: [Synth 8-3491] module 'gk_1' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/gk_1.vhd:7' bound to instance 'gk_1comp' of component 'gk_1' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/dis_est.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'gk_1' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/gk_1.vhd:17]
+INFO: [Synth 8-3491] module 'addsubfsm_v6' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:17' bound to instance 'add0' of component 'addsubfsm_v6' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/gk_1.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_addsubfsm_v6' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:28]
+WARNING: [Synth 8-6014] Unused sequential element sl_reg was removed.  [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:118]
+WARNING: [Synth 8-6014] Unused sequential element sign_reg was removed.  [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:200]
+WARNING: [Synth 8-6014] Unused sequential element s_res_exp_reg was removed.  [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:201]
+WARNING: [Synth 8-6014] Unused sequential element out_man_reg was removed.  [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:202]
+WARNING: [Synth 8-6014] Unused sequential element pos_reg was removed.  [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:226]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_addsubfsm_v6' (2#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:28]
+INFO: [Synth 8-3491] module 'divNR' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:14' bound to instance 'divGk' of component 'divNR' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/gk_1.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_divNR' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:28]
 	Parameter FRAC_WIDTH bound to: 18 - type: integer 
 	Parameter EXP_WIDTH bound to: 8 - type: integer 
 	Parameter FP_WIDTH bound to: 27 - type: integer 
-	Parameter FRAC_WIDTH bound to: 18 - type: integer 
-INFO: [Synth 8-3491] module 'fixMul' declared at 'C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/fixMul.vhd:30' bound to instance 'FMul1' of component 'fixMul' [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/divNR.vhd:147]
-INFO: [Synth 8-638] synthesizing module 'fixMul' [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/fixMul.vhd:36]
-INFO: [Synth 8-256] done synthesizing module 'fixMul' (2#1) [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/fixMul.vhd:36]
-INFO: [Synth 8-226] default block is never used [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/divNR.vhd:169]
-INFO: [Synth 8-226] default block is never used [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/divNR.vhd:229]
-WARNING: [Synth 8-6014] Unused sequential element P_reg was removed.  [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/divNR.vhd:161]
-WARNING: [Synth 8-6014] Unused sequential element Vax_reg was removed.  [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/divNR.vhd:162]
-WARNING: [Synth 8-6014] Unused sequential element ExpoenteR_reg was removed.  [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/divNR.vhd:225]
-INFO: [Synth 8-256] done synthesizing module 'divNR' (3#1) [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/divNR.vhd:28]
-INFO: [Synth 8-256] done synthesizing module 'gk_1' (4#1) [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/gk_1.vhd:25]
-INFO: [Synth 8-3491] module 'sigma_k' declared at 'C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/sigma_k.vhd:34' bound to instance 'sigma_kcomp' of component 'sigma_k' [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/dis_est.vhd:75]
-INFO: [Synth 8-638] synthesizing module 'sigma_k' [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/sigma_k.vhd:45]
-WARNING: [Synth 8-614] signal 'sigmak_0' is read in the process but is not in the sensitivity list [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/sigma_k.vhd:50]
-WARNING: [Synth 8-614] signal 'ready_sigma' is read in the process but is not in the sensitivity list [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/sigma_k.vhd:50]
-WARNING: [Synth 8-614] signal 'cnt' is read in the process but is not in the sensitivity list [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/sigma_k.vhd:59]
-INFO: [Synth 8-256] done synthesizing module 'sigma_k' (5#1) [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/sigma_k.vhd:45]
-WARNING: [Synth 8-5640] Port 'ready_sigma' is missing in component declaration [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/dis_est.vhd:49]
-INFO: [Synth 8-3491] module 'sigmak' declared at 'C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/sigmak.vhd:36' bound to instance 'sigmak_comp' of component 'sigmak' [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/dis_est.vhd:84]
-INFO: [Synth 8-638] synthesizing module 'sigmak' [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/sigmak.vhd:50]
-INFO: [Synth 8-3491] module 'multiplierfsm_v2' declared at 'C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/multiplierfsm_v2.vhd:26' bound to instance 'mul' of component 'multiplierfsm_v2' [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/sigmak.vhd:61]
-INFO: [Synth 8-638] synthesizing module 'multiplierfsm_v2' [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/multiplierfsm_v2.vhd:36]
-WARNING: [Synth 8-614] signal 's_mul_man' is read in the process but is not in the sensitivity list [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/multiplierfsm_v2.vhd:64]
-WARNING: [Synth 8-614] signal 's_add_exp' is read in the process but is not in the sensitivity list [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/multiplierfsm_v2.vhd:64]
-INFO: [Synth 8-256] done synthesizing module 'multiplierfsm_v2' (6#1) [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/multiplierfsm_v2.vhd:36]
-INFO: [Synth 8-3491] module 'addsubfsm_v6' declared at 'C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/addsubfsm_v6.vhd:17' bound to instance 'add0' of component 'addsubfsm_v6' [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/sigmak.vhd:71]
-INFO: [Synth 8-256] done synthesizing module 'sigmak' (7#1) [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/sigmak.vhd:50]
-INFO: [Synth 8-3491] module 'x_fus' declared at 'C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/x_fus.vhd:35' bound to instance 'x_fus_comp' of component 'x_fus' [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/dis_est.vhd:95]
-INFO: [Synth 8-638] synthesizing module 'x_fus' [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/x_fus.vhd:45]
-INFO: [Synth 8-3491] module 'addsubfsm_v6' declared at 'C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/addsubfsm_v6.vhd:17' bound to instance 'sub0' of component 'addsubfsm_v6' [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/x_fus.vhd:55]
-INFO: [Synth 8-3491] module 'multiplierfsm_v2' declared at 'C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/multiplierfsm_v2.vhd:26' bound to instance 'mul' of component 'multiplierfsm_v2' [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/x_fus.vhd:66]
-INFO: [Synth 8-3491] module 'addsubfsm_v6' declared at 'C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/addsubfsm_v6.vhd:17' bound to instance 'add0' of component 'addsubfsm_v6' [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/x_fus.vhd:78]
-WARNING: [Synth 8-3848] Net reset in module/entity x_fus does not have driver. [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/x_fus.vhd:46]
-INFO: [Synth 8-256] done synthesizing module 'x_fus' (8#1) [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/x_fus.vhd:45]
-INFO: [Synth 8-256] done synthesizing module 'dis_est' (9#1) [C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.srcs/sources_1/new/dis_est.vhd:17]
-WARNING: [Synth 8-3331] design sigmak has unconnected port ready_gk_1
-WARNING: [Synth 8-3331] design sigmak has unconnected port ready_sigma_1
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[26]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[25]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[24]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[23]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[22]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[21]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[20]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[19]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[18]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[17]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[16]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[15]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[14]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[13]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[12]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[11]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[10]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[9]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[8]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[7]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[6]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[5]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[4]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[3]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[2]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[1]
-WARNING: [Synth 8-3331] design sigmak has unconnected port sigma_z[0]
-WARNING: [Synth 8-3331] design sigma_k has unconnected port start
+INFO: [Synth 8-3491] module 'fixMul' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/fixMul.vhd:30' bound to instance 'FMul1' of component 'fixMul' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'fixMul' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/fixMul.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'fixMul' (3#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/fixMul.vhd:36]
+INFO: [Synth 8-226] default block is never used [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:166]
+INFO: [Synth 8-226] default block is never used [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:226]
+WARNING: [Synth 8-6014] Unused sequential element P_reg was removed.  [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:158]
+WARNING: [Synth 8-6014] Unused sequential element Vax_reg was removed.  [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:159]
+WARNING: [Synth 8-6014] Unused sequential element ExpoenteR_reg was removed.  [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:222]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_divNR' (4#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'gk_1' (5#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/gk_1.vhd:17]
+INFO: [Synth 8-3491] module 'sigmak' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigmak.vhd:36' bound to instance 'sigmak_comp' of component 'sigmak' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/dis_est.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'sigmak' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigmak.vhd:48]
+INFO: [Synth 8-3491] module 'multiplierfsm_v2' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/multiplierfsm_v2.vhd:26' bound to instance 'mul' of component 'multiplierfsm_v2' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigmak.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_multiplierfsm_v2' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/multiplierfsm_v2.vhd:36]
+WARNING: [Synth 8-614] signal 's_mul_man' is read in the process but is not in the sensitivity list [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/multiplierfsm_v2.vhd:64]
+WARNING: [Synth 8-614] signal 's_add_exp' is read in the process but is not in the sensitivity list [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/multiplierfsm_v2.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_multiplierfsm_v2' (6#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/multiplierfsm_v2.vhd:36]
+INFO: [Synth 8-3491] module 'addsubfsm_v6' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:17' bound to instance 'add0' of component 'addsubfsm_v6' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigmak.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'sigmak' (7#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigmak.vhd:48]
+INFO: [Synth 8-3491] module 'x_fus' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/x_fus.vhd:35' bound to instance 'x_fus_comp' of component 'x_fus' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/dis_est.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'x_fus' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/x_fus.vhd:46]
+INFO: [Synth 8-3491] module 'addsubfsm_v6' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:17' bound to instance 'sub0' of component 'addsubfsm_v6' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/x_fus.vhd:55]
+INFO: [Synth 8-3491] module 'multiplierfsm_v2' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/multiplierfsm_v2.vhd:26' bound to instance 'mul' of component 'multiplierfsm_v2' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/x_fus.vhd:66]
+INFO: [Synth 8-3491] module 'addsubfsm_v6' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:17' bound to instance 'add0' of component 'addsubfsm_v6' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/x_fus.vhd:78]
+INFO: [Synth 8-256] done synthesizing module 'x_fus' (8#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/x_fus.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'dis_est' (9#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/dis_est.vhd:15]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 420.313 ; gain = 157.586
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1421.105 ; gain = 117.570 ; free physical = 181 ; free virtual = 4160
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 420.313 ; gain = 157.586
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1421.105 ; gain = 117.570 ; free physical = 181 ; free virtual = 4160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1421.105 ; gain = 117.570 ; free physical = 181 ; free virtual = 4160
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/Simulacoes/pcrula.xdc]
+Finished Parsing XDC File [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/Simulacoes/pcrula.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/Simulacoes/pcrula.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/dis_est_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/dis_est_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1748.512 ; gain = 0.000 ; free physical = 129 ; free virtual = 4027
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1748.512 ; gain = 0.000 ; free physical = 130 ; free virtual = 4027
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1748.512 ; gain = 0.000 ; free physical = 130 ; free virtual = 4027
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1748.512 ; gain = 0.000 ; free physical = 130 ; free virtual = 4027
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1748.512 ; gain = 444.977 ; free physical = 211 ; free virtual = 4110
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
-INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 420.313 ; gain = 157.586
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1748.512 ; gain = 444.977 ; free physical = 211 ; free virtual = 4110
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/addsubfsm_v6.vhd:170]
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/addsubfsm_v6.vhd:170]
-INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'addsubfsm_v6'
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1748.512 ; gain = 444.977 ; free physical = 213 ; free virtual = 4111
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "ready" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:170]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:170]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'xil_defaultlib_addsubfsm_v6'
 INFO: [Synth 8-5544] ROM "update" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "ready_as" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "update" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "ready_as" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "oper" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "pos" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
-INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/fixMul.vhd:40]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/fixMul.vhd:40]
 INFO: [Synth 8-5544] ROM "MEM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "MEM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
@@ -134,9 +140,7 @@ INFO: [Synth 8-5544] ROM "SDOut" won't be mapped to Block RAM because address si
 INFO: [Synth 8-5544] ROM "CalDiv" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "CpiaResul" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "ready_div" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-5545] ROM "ready" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/ana01/Downloads/Circuitos_Reconfiguraveis/operadorFloatingPoint/multiplierfsm_v2.vhd:129]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/multiplierfsm_v2.vhd:129]
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
@@ -144,9 +148,9 @@ INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recomm
                   addsub |                              010 |                               01
                   output |                              100 |                               10
 ---------------------------------------------------------------------------------------------------
-INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'addsubfsm_v6'
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'xil_defaultlib_addsubfsm_v6'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 438.813 ; gain = 176.086
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1748.512 ; gain = 444.977 ; free physical = 204 ; free virtual = 4103
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -154,7 +158,6 @@ Report RTL Partitions:
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-No constraint files found.
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -204,7 +207,15 @@ Finished RTL Component Statistics
 Start RTL Hierarchical Component Statistics 
 ---------------------------------------------------------------------------------
 Hierarchical RTL Component report 
-Module addsubfsm_v6 
+Module sigma_k 
+Detailed RTL Component Info : 
++---Registers : 
+	               27 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     27 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module xil_defaultlib_addsubfsm_v6 
 Detailed RTL Component Info : 
 +---Adders : 
 	   3 Input     20 Bit       Adders := 1     
@@ -226,7 +237,7 @@ Detailed RTL Component Info :
 	   2 Input      2 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 29    
 	   8 Input      1 Bit        Muxes := 1     
-Module divNR 
+Module xil_defaultlib_divNR 
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input     19 Bit       Adders := 1     
@@ -255,15 +266,7 @@ Detailed RTL Component Info :
 	   2 Input      2 Bit        Muxes := 1     
 	   4 Input      1 Bit        Muxes := 11    
 	   2 Input      1 Bit        Muxes := 3     
-Module sigma_k 
-Detailed RTL Component Info : 
-+---Registers : 
-	               27 Bit    Registers := 1     
-	                1 Bit    Registers := 1     
-+---Muxes : 
-	   2 Input     27 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 2     
-Module multiplierfsm_v2 
+Module xil_defaultlib_multiplierfsm_v2 
 Detailed RTL Component Info : 
 +---Adders : 
 	   3 Input      9 Bit       Adders := 2     
@@ -292,7 +295,6 @@ BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-No constraint files found.
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
@@ -311,20 +313,20 @@ DSP Report: Generating DSP sigmak_comp/mul/multOp, operation Mode is: A*B.
 DSP Report: operator sigmak_comp/mul/multOp is absorbed into DSP sigmak_comp/mul/multOp.
 DSP Report: operator sigmak_comp/mul/multOp is absorbed into DSP sigmak_comp/mul/multOp.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 729.215 ; gain = 466.488
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:39 . Memory (MB): peak = 1748.512 ; gain = 444.977 ; free physical = 230 ; free virtual = 4070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
 
 DSP: Preliminary Mapping  Report (see note below)
-+-----------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|Module Name      | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
-+-----------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|divNR            | A2*B2       | 20     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
-|multiplierfsm_v2 | A*B         | 20     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|multiplierfsm_v2 | A*B         | 20     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-+-----------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
++--------------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                     | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|xil_defaultlib_divNR            | A2*B2       | 20     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|xil_defaultlib_multiplierfsm_v2 | A*B         | 20     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|xil_defaultlib_multiplierfsm_v2 | A*B         | 20     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++--------------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
 
 Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
 ---------------------------------------------------------------------------------
@@ -336,12 +338,17 @@ Report RTL Partitions:
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-No constraint files found.
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:48 . Memory (MB): peak = 1770.512 ; gain = 466.977 ; free physical = 137 ; free virtual = 3907
+---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 729.215 ; gain = 466.488
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:51 . Memory (MB): peak = 1823.152 ; gain = 519.617 ; free physical = 133 ; free virtual = 3890
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -353,7 +360,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 729.215 ; gain = 466.488
+Finished Technology Mapping : Time (s): cpu = 00:00:45 ; elapsed = 00:00:52 . Memory (MB): peak = 1839.168 ; gain = 535.633 ; free physical = 129 ; free virtual = 3887
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -377,7 +384,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 729.215 ; gain = 466.488
+Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:00:53 . Memory (MB): peak = 1839.168 ; gain = 535.633 ; free physical = 129 ; free virtual = 3886
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -390,7 +397,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 729.215 ; gain = 466.488
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:00:53 . Memory (MB): peak = 1839.168 ; gain = 535.633 ; free physical = 129 ; free virtual = 3886
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -402,25 +409,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 729.215 ; gain = 466.488
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:46 ; elapsed = 00:00:53 . Memory (MB): peak = 1839.168 ; gain = 535.633 ; free physical = 128 ; free virtual = 3886
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 729.215 ; gain = 466.488
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:00:53 . Memory (MB): peak = 1839.168 ; gain = 535.633 ; free physical = 128 ; free virtual = 3886
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 729.215 ; gain = 466.488
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:53 . Memory (MB): peak = 1839.168 ; gain = 535.633 ; free physical = 128 ; free virtual = 3886
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 729.215 ; gain = 466.488
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:00:53 . Memory (MB): peak = 1839.168 ; gain = 535.633 ; free physical = 128 ; free virtual = 3886
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -433,68 +440,67 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+------+--------+------+
-|      |Cell    |Count |
-+------+--------+------+
-|1     |BUFG    |     1|
-|2     |CARRY4  |   134|
-|3     |DSP48E1 |     3|
-|4     |LUT1    |    27|
-|5     |LUT2    |   258|
-|6     |LUT3    |   390|
-|7     |LUT4    |   416|
-|8     |LUT5    |   303|
-|9     |LUT6    |   783|
-|10    |FDCE    |    28|
-|11    |FDPE    |    27|
-|12    |FDRE    |   403|
-|13    |FDSE    |     2|
-|14    |LDC     |    27|
-|15    |IBUF    |   111|
-|16    |OBUF    |    28|
-+------+--------+------+
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |CARRY4    |   133|
+|3     |DSP48E1   |     1|
+|4     |DSP48E1_1 |     2|
+|5     |LUT1      |    54|
+|6     |LUT2      |   314|
+|7     |LUT3      |   282|
+|8     |LUT4      |   426|
+|9     |LUT5      |   265|
+|10    |LUT6      |   689|
+|11    |FDCE      |    13|
+|12    |FDPE      |    15|
+|13    |FDRE      |   403|
+|14    |FDSE      |     4|
+|15    |IBUF      |    57|
+|16    |OBUF      |    28|
++------+----------+------+
 
 Report Instance Areas: 
-+------+--------------+-------------------+------+
-|      |Instance      |Module             |Cells |
-+------+--------------+-------------------+------+
-|1     |top           |                   |  2941|
-|2     |  gk_1comp    |gk_1               |   609|
-|3     |    add0      |addsubfsm_v6_3     |   242|
-|4     |    divGk     |divNR              |   367|
-|5     |      FMul1   |fixMul             |   168|
-|6     |  sigma_kcomp |sigma_k            |   823|
-|7     |  sigmak_comp |sigmak             |   352|
-|8     |    add0      |addsubfsm_v6_1     |   197|
-|9     |    mul       |multiplierfsm_v2_2 |   155|
-|10    |  x_fus_comp  |x_fus              |  1017|
-|11    |    add0      |addsubfsm_v6       |   201|
-|12    |    mul       |multiplierfsm_v2   |   340|
-|13    |    sub0      |addsubfsm_v6_0     |   476|
-+------+--------------+-------------------+------+
++------+--------------+----------------------------------+------+
+|      |Instance      |Module                            |Cells |
++------+--------------+----------------------------------+------+
+|1     |top           |                                  |  2687|
+|2     |  gk_1comp    |gk_1                              |   641|
+|3     |    add0      |xil_defaultlib_addsubfsm_v6_3     |   260|
+|4     |    divGk     |xil_defaultlib_divNR              |   381|
+|5     |      FMul1   |fixMul                            |   168|
+|6     |  sigma_kcomp |sigma_k                           |   498|
+|7     |  sigmak_comp |sigmak                            |   409|
+|8     |    add0      |xil_defaultlib_addsubfsm_v6_1     |   218|
+|9     |    mul       |xil_defaultlib_multiplierfsm_v2_2 |   191|
+|10    |  x_fus_comp  |x_fus                             |  1053|
+|11    |    add0      |xil_defaultlib_addsubfsm_v6       |   201|
+|12    |    mul       |xil_defaultlib_multiplierfsm_v2   |   342|
+|13    |    sub0      |xil_defaultlib_addsubfsm_v6_0     |   510|
++------+--------------+----------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 729.215 ; gain = 466.488
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:00:53 . Memory (MB): peak = 1839.168 ; gain = 535.633 ; free physical = 128 ; free virtual = 3886
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 45 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 729.215 ; gain = 466.488
-Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 729.215 ; gain = 466.488
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 1839.168 ; gain = 208.227 ; free physical = 189 ; free virtual = 3947
+Synthesis Optimization Complete : Time (s): cpu = 00:00:46 ; elapsed = 00:00:54 . Memory (MB): peak = 1839.176 ; gain = 535.633 ; free physical = 189 ; free virtual = 3947
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 164 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 136 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 729.215 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1839.176 ; gain = 0.000 ; free physical = 134 ; free virtual = 3893
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 27 instances were transformed.
-  LDC => LDCE: 27 instances
+No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-68 Infos, 45 Warnings, 0 Critical Warnings and 0 Errors encountered.
+71 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:45 . Memory (MB): peak = 729.215 ; gain = 479.754
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 729.215 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:49 ; elapsed = 00:00:56 . Memory (MB): peak = 1839.176 ; gain = 535.820 ; free physical = 217 ; free virtual = 3976
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1839.176 ; gain = 0.000 ; free physical = 217 ; free virtual = 3977
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/ana01/Desktop/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PROVA/prova1/prova1.runs/synth_1/dis_est.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.runs/synth_1/dis_est.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file dis_est_utilization_synth.rpt -pb dis_est_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue May  7 17:32:19 2019...
+INFO: [Common 17-206] Exiting Vivado at Thu May  9 19:59:03 2019...

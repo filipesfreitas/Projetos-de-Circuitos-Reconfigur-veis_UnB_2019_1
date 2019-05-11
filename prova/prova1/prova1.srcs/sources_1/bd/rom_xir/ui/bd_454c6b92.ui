@@ -1,0 +1,19 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port en -pg 1 -y 260 -defaultsOSRD
+preplace port clk -pg 1 -y 200 -defaultsOSRD
+preplace port reset -pg 1 -y 240 -defaultsOSRD
+preplace portBus dout -pg 1 -lvl 2:-80 -defaultsOSRD -top
+preplace inst c_counter_binary_0 -pg 1 -lvl 1 -y 220 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -y 300 -defaultsOSRD
+preplace netloc en_1 1 0 2 30J 340 NJ
+preplace netloc c_counter_binary_0_Q 1 1 1 230
+preplace netloc blk_mem_gen_0_douta 1 1 1 240
+preplace netloc Net 1 0 2 20 300 NJ
+preplace netloc reset_1 1 0 1 N
+levelinfo -pg 1 0 130 350 470 -top 0 -bot 400
+"
+}
+

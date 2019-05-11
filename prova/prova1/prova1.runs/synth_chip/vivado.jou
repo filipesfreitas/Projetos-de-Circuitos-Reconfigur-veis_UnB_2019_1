@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May 10 22:10:34 2019
+# Process ID: 17756
+# Current directory: /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.runs/synth_chip
+# Command line: vivado -log dis_est.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dis_est.tcl
+# Log file: /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.runs/synth_chip/dis_est.vds
+# Journal file: /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.runs/synth_chip/vivado.jou
+#-----------------------------------------------------------
+source dis_est.tcl -notrace

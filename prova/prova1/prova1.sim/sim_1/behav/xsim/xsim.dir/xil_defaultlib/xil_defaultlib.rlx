@@ -2,15 +2,17 @@
 2018.3
 Dec  6 2018
 23:39:36
-/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/Simulacoes/tb_p1.vhd,1557432154,vhdl,,,,tb_p1,,,,,,,,
+/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/Simulacoes/tb_p1.vhd,1557541297,vhdl,,,,tb_p1,,,,,,,,
 /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd,1555415978,vhdl,,,,addsubfsm_v6,,,,,,,,
 /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd,1557403720,vhdl,,,,divnr,,,,,,,,
-/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/entities.vhd,1555591614,vhdl,/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/gk_1.vhd;/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigmak.vhd;/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/x_fus.vhd,,,entities,,,,,,,,
+/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/entities.vhd,1555591614,vhdl,/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigmak.vhd,,,entities,,,,,,,,
 /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/fixMul.vhd,1555415978,vhdl,,,,fixmul,,,,,,,,
 /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/fpupack.vhd,1555591587,vhdl,/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/Simulacoes/tb_p1.vhd,,,fpupack,,,,,,,,
 /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/multiplierfsm_v2.vhd,1555415978,vhdl,,,,multiplierfsm_v2,,,,,,,,
-/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/dis_est.vhd,1557431734,vhdl,,,,dis_est,,,,,,,,
+/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sim_1/new/tb_addr.vhd,1557494509,vhdl,,,,tb_addr,,,,,,,,
+/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/addres_handle.vhd,1557493930,vhdl,,,,addres_handle,,,,,,,,
+/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/dis_est.vhd,1557491939,vhdl,,,,dis_est,,,,,,,,
 /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/gk_1.vhd,1557423125,vhdl,,,,gk_1,,,,,,,,
 /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigma_k.vhd,1557431726,vhdl,,,,sigma_k,,,,,,,,
-/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigmak.vhd,1557427986,vhdl,,,,sigmak,,,,,,,,
+/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigmak.vhd,1557445803,vhdl,,,,sigmak,,,,,,,,
 /home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/x_fus.vhd,1557426675,vhdl,,,,x_fus,,,,,,,,

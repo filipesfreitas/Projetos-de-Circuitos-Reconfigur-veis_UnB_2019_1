@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../questao5.srcs/sources_1/new/dis_est.vhd" \
+"../../../../questao5.srcs/sources_1/new/gk_1.vhd" \
+"../../../../questao5.srcs/sources_1/new/sigma_k.vhd" \
+"../../../../questao5.srcs/sources_1/new/sigmak.vhd" \
+"../../../../questao5.srcs/sources_1/new/x_fus.vhd" \
+"../../../../../prova1/Simulacoes/tb_p1.vhd" \
+
+# Do not sort compile order
+nosort

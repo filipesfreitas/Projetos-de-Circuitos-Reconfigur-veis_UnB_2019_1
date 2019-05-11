@@ -1,0 +1,640 @@
+
+*** Running vivado
+    with args -log top_level_4.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_level_4.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source top_level_4.tcl -notrace
+Command: synth_design -top top_level_4 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 30996 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1379.340 ; gain = 0.000 ; free physical = 665 ; free virtual = 4873
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-2488] overwriting existing primary unit addsubfsm_v6 [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:17]
+WARNING: [Synth 8-2488] overwriting existing primary unit divnr [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:14]
+WARNING: [Synth 8-2488] overwriting existing primary unit multiplierfsm_v2 [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/multiplierfsm_v2.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'top_level_4' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/top_level_4.vhd:42]
+INFO: [Synth 8-3491] module 'addres_handle' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/addres_handle.vhd:35' bound to instance 'address_handle' of component 'addres_handle' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/top_level_4.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'addres_handle' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/addres_handle.vhd:43]
+WARNING: [Synth 8-614] signal 'cnt_addr' is read in the process but is not in the sensitivity list [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/addres_handle.vhd:48]
+WARNING: [Synth 8-614] signal 'cnt' is read in the process but is not in the sensitivity list [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/addres_handle.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'addres_handle' (1#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/addres_handle.vhd:43]
+INFO: [Synth 8-3491] module 'dis_est' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/dis_est.vhd:5' bound to instance 'x_fus_comp' of component 'dis_est' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/top_level_4.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'dis_est' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/dis_est.vhd:15]
+INFO: [Synth 8-3491] module 'sigma_k' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/sigma_k.vhd:34' bound to instance 'sigma_kcomp' of component 'sigma_k' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/dis_est.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'sigma_k' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/sigma_k.vhd:44]
+WARNING: [Synth 8-614] signal 'cnt' is read in the process but is not in the sensitivity list [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/sigma_k.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'sigma_k' (2#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/sigma_k.vhd:44]
+INFO: [Synth 8-3491] module 'gk_1' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/gk_1.vhd:7' bound to instance 'gk_1comp' of component 'gk_1' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/dis_est.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'gk_1' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/gk_1.vhd:17]
+INFO: [Synth 8-3491] module 'addsubfsm_v6' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:17' bound to instance 'add0' of component 'addsubfsm_v6' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/gk_1.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'addsubfsm_v6' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:28]
+WARNING: [Synth 8-6014] Unused sequential element sl_reg was removed.  [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:118]
+WARNING: [Synth 8-6014] Unused sequential element sign_reg was removed.  [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:200]
+WARNING: [Synth 8-6014] Unused sequential element s_res_exp_reg was removed.  [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:201]
+WARNING: [Synth 8-6014] Unused sequential element out_man_reg was removed.  [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:202]
+WARNING: [Synth 8-6014] Unused sequential element pos_reg was removed.  [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:226]
+INFO: [Synth 8-256] done synthesizing module 'addsubfsm_v6' (3#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:28]
+INFO: [Synth 8-3491] module 'divNR' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:14' bound to instance 'divGk' of component 'divNR' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/gk_1.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'divNR' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:28]
+	Parameter FRAC_WIDTH bound to: 18 - type: integer 
+	Parameter EXP_WIDTH bound to: 8 - type: integer 
+	Parameter FP_WIDTH bound to: 27 - type: integer 
+INFO: [Synth 8-3491] module 'fixMul' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/fixMul.vhd:30' bound to instance 'FMul1' of component 'fixMul' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'fixMul' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/fixMul.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'fixMul' (4#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/fixMul.vhd:36]
+INFO: [Synth 8-226] default block is never used [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:166]
+INFO: [Synth 8-226] default block is never used [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:226]
+WARNING: [Synth 8-6014] Unused sequential element P_reg was removed.  [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:158]
+WARNING: [Synth 8-6014] Unused sequential element Vax_reg was removed.  [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:159]
+WARNING: [Synth 8-6014] Unused sequential element ExpoenteR_reg was removed.  [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:222]
+INFO: [Synth 8-256] done synthesizing module 'divNR' (5#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/divNR.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'gk_1' (6#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/gk_1.vhd:17]
+INFO: [Synth 8-3491] module 'sigmak' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/sigmak.vhd:36' bound to instance 'sigmak_comp' of component 'sigmak' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/dis_est.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'sigmak' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/sigmak.vhd:48]
+INFO: [Synth 8-3491] module 'multiplierfsm_v2' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/multiplierfsm_v2.vhd:26' bound to instance 'mul' of component 'multiplierfsm_v2' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/sigmak.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'multiplierfsm_v2' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/multiplierfsm_v2.vhd:36]
+WARNING: [Synth 8-614] signal 's_mul_man' is read in the process but is not in the sensitivity list [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/multiplierfsm_v2.vhd:64]
+WARNING: [Synth 8-614] signal 's_add_exp' is read in the process but is not in the sensitivity list [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/multiplierfsm_v2.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'multiplierfsm_v2' (7#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/multiplierfsm_v2.vhd:36]
+INFO: [Synth 8-3491] module 'addsubfsm_v6' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:17' bound to instance 'add0' of component 'addsubfsm_v6' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/sigmak.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'sigmak' (8#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/sigmak.vhd:48]
+INFO: [Synth 8-3491] module 'x_fus' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/x_fus.vhd:35' bound to instance 'x_fus_comp' of component 'x_fus' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/dis_est.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'x_fus' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/x_fus.vhd:46]
+INFO: [Synth 8-3491] module 'addsubfsm_v6' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:17' bound to instance 'sub0' of component 'addsubfsm_v6' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/x_fus.vhd:55]
+INFO: [Synth 8-3491] module 'multiplierfsm_v2' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/multiplierfsm_v2.vhd:26' bound to instance 'mul' of component 'multiplierfsm_v2' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/x_fus.vhd:66]
+INFO: [Synth 8-3491] module 'addsubfsm_v6' declared at '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:17' bound to instance 'add0' of component 'addsubfsm_v6' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/x_fus.vhd:78]
+INFO: [Synth 8-256] done synthesizing module 'x_fus' (9#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/x_fus.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'dis_est' (10#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.srcs/sources_1/new/dis_est.vhd:15]
+WARNING: [Synth 8-3848] Net ready in module/entity top_level_4 does not have driver. [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/top_level_4.vhd:38]
+WARNING: [Synth 8-3848] Net start_aux in module/entity top_level_4 does not have driver. [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/top_level_4.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'top_level_4' (11#1) [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/top_level_4.vhd:42]
+WARNING: [Synth 8-3331] design addres_handle has unconnected port ready
+WARNING: [Synth 8-3331] design top_level_4 has unconnected port ready
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1395.660 ; gain = 16.320 ; free physical = 633 ; free virtual = 4841
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin address_handle:start to constant 0 [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/top_level_4.vhd:70]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1395.660 ; gain = 16.320 ; free physical = 638 ; free virtual = 4846
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1395.660 ; gain = 16.320 ; free physical = 638 ; free virtual = 4846
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1712.043 ; gain = 0.000 ; free physical = 300 ; free virtual = 4508
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1712.043 ; gain = 0.000 ; free physical = 300 ; free virtual = 4508
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1713.043 ; gain = 1.000 ; free physical = 299 ; free virtual = 4507
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1713.043 ; gain = 333.703 ; free physical = 461 ; free virtual = 4669
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1713.043 ; gain = 333.703 ; free physical = 461 ; free virtual = 4669
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1713.043 ; gain = 333.703 ; free physical = 463 ; free virtual = 4671
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cnt_addr" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "ready" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:170]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/addsubfsm_v6.vhd:170]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'addsubfsm_v6'
+INFO: [Synth 8-5544] ROM "update" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ready_as" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "update" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ready_as" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "oper" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pos" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/fixMul.vhd:40]
+INFO: [Synth 8-5544] ROM "MEM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MEM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Ea" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "opA_mul" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cont" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FinDiv" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "SDOut" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "CalDiv" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "CpiaResul" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ready_div" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/operadorFloatingPoint/multiplierfsm_v2.vhd:129]
+WARNING: [Synth 8-327] inferring latch for variable 'cnt_addr_reg' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/addres_handle.vhd:51]
+WARNING: [Synth 8-327] inferring latch for variable 'cnt_reg' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/addres_handle.vhd:52]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 waiting |                              001 |                               00
+                  addsub |                              010 |                               01
+                  output |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'addsubfsm_v6'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1713.043 ; gain = 333.703 ; free physical = 453 ; free virtual = 4662
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     20 Bit       Adders := 4     
+	   2 Input     19 Bit       Adders := 1     
+	   3 Input      9 Bit       Adders := 4     
+	   3 Input      8 Bit       Adders := 13    
+	   2 Input      8 Bit       Adders := 5     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 7     
++---Registers : 
+	               27 Bit    Registers := 8     
+	               20 Bit    Registers := 4     
+	               19 Bit    Registers := 4     
+	               17 Bit    Registers := 1     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input     27 Bit        Muxes := 6     
+	   4 Input     27 Bit        Muxes := 3     
+	   4 Input     26 Bit        Muxes := 1     
+	   2 Input     20 Bit        Muxes := 8     
+	   2 Input     19 Bit        Muxes := 33    
+	   4 Input     19 Bit        Muxes := 4     
+	   2 Input     18 Bit        Muxes := 5     
+	  17 Input     17 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 22    
+	   3 Input      3 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 4     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	   4 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 123   
+	   8 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 13    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module addres_handle 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module sigma_k 
+Detailed RTL Component Info : 
++---Registers : 
+	               27 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     27 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module addsubfsm_v6 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     20 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     27 Bit        Muxes := 1     
+	   2 Input     20 Bit        Muxes := 2     
+	   2 Input     19 Bit        Muxes := 8     
+	   2 Input      8 Bit        Muxes := 5     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 29    
+	   8 Input      1 Bit        Muxes := 1     
+Module divNR 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     19 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	               19 Bit    Registers := 4     
+	               17 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input     27 Bit        Muxes := 1     
+	   4 Input     26 Bit        Muxes := 1     
+	   4 Input     19 Bit        Muxes := 4     
+	   2 Input     19 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 1     
+	  17 Input     17 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 11    
+	   2 Input      1 Bit        Muxes := 3     
+Module multiplierfsm_v2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     27 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+DSP Report: Generating DSP FMul1/multOp, operation Mode is: A2*B2.
+DSP Report: register B is absorbed into DSP FMul1/multOp.
+DSP Report: register A is absorbed into DSP FMul1/multOp.
+DSP Report: operator FMul1/multOp is absorbed into DSP FMul1/multOp.
+DSP Report: operator FMul1/multOp is absorbed into DSP FMul1/multOp.
+DSP Report: Generating DSP multOp, operation Mode is: A*B.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: operator multOp is absorbed into DSP multOp.
+INFO: [Synth 8-5545] ROM "address_handle/cnt_addr" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "address_handle/cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "x_fus_comp/sigma_kcomp/cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "x_fus_comp/sigma_kcomp/ready" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+DSP Report: Generating DSP x_fus_comp/sigmak_comp/mul/multOp, operation Mode is: A*B.
+DSP Report: operator x_fus_comp/sigmak_comp/mul/multOp is absorbed into DSP x_fus_comp/sigmak_comp/mul/multOp.
+DSP Report: operator x_fus_comp/sigmak_comp/mul/multOp is absorbed into DSP x_fus_comp/sigmak_comp/mul/multOp.
+WARNING: [Synth 8-3331] design top_level_4 has unconnected port ready
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[0]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[16]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[17]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[15]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[14]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[13]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[12]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[11]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[10]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[9]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[8]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[7]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[6]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[5]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[4]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[3]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[2]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[1]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/res_man_reg[18]' (FDR) to 'x_fus_comp/x_fus_comp/sub0/s_sign_reg'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/s_sign_reg' (FDR) to 'x_fus_comp/x_fus_comp/sub0/res_man_reg[19]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\x_fus_comp/x_fus_comp /\sub0/res_man_reg[19] )
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[16]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[15]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[14]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[13]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[12]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[11]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[10]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[9]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[8]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[7]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[6]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[5]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[4]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[3]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[2]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[1]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[0]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[24]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[25]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[25]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[23]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[18]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[23]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[17]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[19]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[20]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[23]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[21]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[23]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[22]' (FDE) to 'x_fus_comp/x_fus_comp/sub0/addsub_out_reg[26]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\x_fus_comp/x_fus_comp /\sub0/addsub_out_reg[26] )
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_addr_reg[6]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_addr_reg[5]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_addr_reg[4]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_addr_reg[3]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_addr_reg[2]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_addr_reg[1]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_addr_reg[0]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[31]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[30]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[29]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[28]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[27]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[26]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[25]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[24]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[23]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[22]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[21]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[20]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[19]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[18]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[17]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[16]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[15]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[14]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[13]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[12]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[11]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[10]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[9]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[8]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[7]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[6]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[5]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[4]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[3]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[2]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[1]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (address_handle/cnt_reg[0]) is unused and will be removed from module top_level_4.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1713.043 ; gain = 333.703 ; free physical = 423 ; free virtual = 4631
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++-----------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name      | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|divNR            | A2*B2       | 20     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|multiplierfsm_v2 | A*B         | 20     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplierfsm_v2 | A*B         | 20     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++-----------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1735.043 ; gain = 355.703 ; free physical = 270 ; free virtual = 4479
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1736.043 ; gain = 356.703 ; free physical = 269 ; free virtual = 4478
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (x_fus_comp/x_fus_comp/sub0/FSM_onehot_state_reg[2]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (x_fus_comp/x_fus_comp/sub0/FSM_onehot_state_reg[1]) is unused and will be removed from module top_level_4.
+WARNING: [Synth 8-3332] Sequential element (x_fus_comp/x_fus_comp/sub0/FSM_onehot_state_reg[0]) is unused and will be removed from module top_level_4.
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/add0/res_man_reg[0]' (FDR) to 'x_fus_comp/x_fus_comp/add0/res_man_reg[1]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/add0/res_man_reg[1]' (FDR) to 'x_fus_comp/x_fus_comp/add0/res_man_reg[2]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/add0/res_man_reg[2]' (FDR) to 'x_fus_comp/x_fus_comp/add0/res_man_reg[3]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/add0/res_man_reg[3]' (FDR) to 'x_fus_comp/x_fus_comp/add0/res_man_reg[4]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/add0/res_man_reg[4]' (FDR) to 'x_fus_comp/x_fus_comp/add0/res_man_reg[5]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/add0/res_man_reg[5]' (FDR) to 'x_fus_comp/x_fus_comp/add0/res_man_reg[6]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/add0/res_man_reg[6]' (FDR) to 'x_fus_comp/x_fus_comp/add0/res_man_reg[7]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/add0/res_man_reg[7]' (FDR) to 'x_fus_comp/x_fus_comp/add0/res_man_reg[8]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/add0/res_man_reg[8]' (FDR) to 'x_fus_comp/x_fus_comp/add0/res_man_reg[9]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/add0/res_man_reg[9]' (FDR) to 'x_fus_comp/x_fus_comp/add0/res_man_reg[10]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/add0/res_man_reg[10]' (FDR) to 'x_fus_comp/x_fus_comp/add0/res_man_reg[11]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/add0/res_man_reg[11]' (FDR) to 'x_fus_comp/x_fus_comp/add0/res_man_reg[12]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/add0/res_man_reg[12]' (FDR) to 'x_fus_comp/x_fus_comp/add0/res_man_reg[13]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/add0/res_man_reg[13]' (FDR) to 'x_fus_comp/x_fus_comp/add0/res_man_reg[14]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/add0/res_man_reg[14]' (FDR) to 'x_fus_comp/x_fus_comp/add0/res_man_reg[15]'
+INFO: [Synth 8-3886] merging instance 'x_fus_comp/x_fus_comp/add0/res_man_reg[15]' (FDR) to 'x_fus_comp/x_fus_comp/add0/s_sign_reg'
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1767.090 ; gain = 387.750 ; free physical = 259 ; free virtual = 4467
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1767.090 ; gain = 387.750 ; free physical = 258 ; free virtual = 4466
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1767.090 ; gain = 387.750 ; free physical = 258 ; free virtual = 4466
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1767.090 ; gain = 387.750 ; free physical = 258 ; free virtual = 4466
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1767.090 ; gain = 387.750 ; free physical = 258 ; free virtual = 4466
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1767.090 ; gain = 387.750 ; free physical = 258 ; free virtual = 4466
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1767.090 ; gain = 387.750 ; free physical = 258 ; free virtual = 4466
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |CARRY4    |    84|
+|3     |DSP48E1   |     1|
+|4     |DSP48E1_2 |     1|
+|5     |LUT1      |    38|
+|6     |LUT2      |   216|
+|7     |LUT3      |   182|
+|8     |LUT4      |   217|
+|9     |LUT5      |   146|
+|10    |LUT6      |   380|
+|11    |FDCE      |    13|
+|12    |FDPE      |    15|
+|13    |FDRE      |   307|
+|14    |FDSE      |     3|
+|15    |IBUF      |     3|
+|16    |OBUF      |    27|
+|17    |OBUFT     |     1|
++------+----------+------+
+
+Report Instance Areas: 
++------+----------------+-----------------+------+
+|      |Instance        |Module           |Cells |
++------+----------------+-----------------+------+
+|1     |top             |                 |  1635|
+|2     |  x_fus_comp    |dis_est          |  1603|
+|3     |    gk_1comp    |gk_1             |   610|
+|4     |      add0      |addsubfsm_v6_1   |   263|
+|5     |      divGk     |divNR            |   347|
+|6     |        FMul1   |fixMul           |   168|
+|7     |    sigma_kcomp |sigma_k          |   488|
+|8     |    sigmak_comp |sigmak           |   408|
+|9     |      add0      |addsubfsm_v6_0   |   217|
+|10    |      mul       |multiplierfsm_v2 |   191|
+|11    |    x_fus_comp  |x_fus            |    97|
+|12    |      add0      |addsubfsm_v6     |    94|
++------+----------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1767.090 ; gain = 387.750 ; free physical = 258 ; free virtual = 4466
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 45 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1767.090 ; gain = 70.367 ; free physical = 318 ; free virtual = 4526
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1767.098 ; gain = 387.750 ; free physical = 318 ; free virtual = 4526
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 86 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1767.098 ; gain = 0.000 ; free physical = 262 ; free virtual = 4471
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+143 Infos, 67 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1767.098 ; gain = 387.938 ; free physical = 294 ; free virtual = 4502
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1767.098 ; gain = 0.000 ; free physical = 294 ; free virtual = 4502
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/questao5/questao5.runs/synth_1/top_level_4.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_level_4_utilization_synth.rpt -pb top_level_4_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri May 10 23:08:23 2019...

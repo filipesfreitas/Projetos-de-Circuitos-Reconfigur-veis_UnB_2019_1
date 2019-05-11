@@ -3,5 +3,28 @@ Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
 Running: /tools/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto b2c0ab9ba95d4d8b8f57217f0913ebf7 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot tb_p1_behav xil_defaultlib.tb_p1 -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'ready_sigma_1' [/home/filipe/Documentos/Matérias/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/prova/prova1/prova1.srcs/sources_1/new/sigmak.vhd:53]
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.fpupack
+Compiling package xil_defaultlib.entities
+Compiling architecture behavioral of entity xil_defaultlib.sigma_k [sigma_k_default]
+Compiling architecture behavioral of entity xil_defaultlib.addsubfsm_v6 [addsubfsm_v6_default]
+Compiling architecture behavioral of entity xil_defaultlib.fixMul [fixmul_default]
+Compiling architecture behavioral of entity xil_defaultlib.divNR [divnr_default]
+Compiling architecture behavioral of entity xil_defaultlib.gk_1 [gk_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.multiplierfsm_v2 [multiplierfsm_v2_default]
+Compiling architecture behavioral of entity xil_defaultlib.sigmak [sigmak_default]
+Compiling architecture behavioral of entity xil_defaultlib.x_fus [x_fus_default]
+Compiling architecture behavioral of entity xil_defaultlib.dis_est [dis_est_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_p1
+Built simulation snapshot tb_p1_behav
