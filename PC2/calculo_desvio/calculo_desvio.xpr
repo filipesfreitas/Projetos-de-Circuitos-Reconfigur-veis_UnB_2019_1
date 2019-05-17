@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="35" Path="/home/filipesfreitas/Documentos/calculo_desvio/calculo_desvio.xpr">
+<Project Version="7" Minor="35" Path="/home/filipesfreitas/Documentos/Projetos-de-Circuitos-Reconfigur-veis_UnB_2019_1/PC2/calculo_desvio/calculo_desvio.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="bd5ce1de6c1c44898e6a687cec0f367d"/>
@@ -57,26 +57,34 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../../Circuitos_Reconfiguraveis/operadorFloatingPoint/multiplierfsm_v2.dcp">
+      <File Path="$PSRCDIR/sources_1/imports/operadorFloatingPoint/multiplierfsm_v2.dcp">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../Circuitos_Reconfiguraveis/operadorFloatingPoint/multiplierfsm_v2.dcp"/>
+          <Attr Name="ImportTime" Val="1558049796"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Circuitos_Reconfiguraveis/operadorFloatingPoint/fpupack.vhd">
+      <File Path="$PSRCDIR/sources_1/imports/operadorFloatingPoint/fpupack.vhd">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../Circuitos_Reconfiguraveis/operadorFloatingPoint/fpupack.vhd"/>
+          <Attr Name="ImportTime" Val="1558059531"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Circuitos_Reconfiguraveis/operadorFloatingPoint/entities.vhd">
+      <File Path="$PSRCDIR/sources_1/imports/operadorFloatingPoint/entities.vhd">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../Circuitos_Reconfiguraveis/operadorFloatingPoint/entities.vhd"/>
+          <Attr Name="ImportTime" Val="1558049796"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Circuitos_Reconfiguraveis/operadorFloatingPoint/multiplierfsm_v2.vhd">
+      <File Path="$PSRCDIR/sources_1/imports/operadorFloatingPoint/multiplierfsm_v2.vhd">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../Circuitos_Reconfiguraveis/operadorFloatingPoint/multiplierfsm_v2.vhd"/>
+          <Attr Name="ImportTime" Val="1558049796"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -106,9 +114,16 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/simulacao/X_arq_bin_.txt"/>
-      <File Path="$PPRDIR/simulacao/tb_desv_behav.wcfg">
+      <File Path="$PSRCDIR/sim_1/imports/simulacao/X_arq_bin_.txt">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/simulacao/X_arq_bin_.txt"/>
+          <Attr Name="ImportTime" Val="1558092368"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/simulacao/tb_desv_behav.wcfg">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/simulacao/tb_desv_behav.wcfg"/>
+          <Attr Name="ImportTime" Val="1558093585"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
@@ -158,12 +173,12 @@
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Flow_PerfOptimized_high" Flow="Vivado Synthesis 2017"/>
         <Step Id="synth_design">
-          <Option Id="RepFanoutThreshold">400</Option>
           <Option Id="NoCombineLuts">1</Option>
+          <Option Id="RepFanoutThreshold">400</Option>
           <Option Id="ResourceSharing">2</Option>
           <Option Id="FsmExtraction">1</Option>
-          <Option Id="ShregMinSize">5</Option>
           <Option Id="KeepEquivalentRegisters">1</Option>
+          <Option Id="ShregMinSize">5</Option>
         </Step>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
