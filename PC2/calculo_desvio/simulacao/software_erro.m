@@ -14,4 +14,11 @@ for i=1:100
 end
 
 X_arq_float_soft = importdata('X_arq_float_.txt');
-desv_pad = (sum((X_arq_float_soft - X_bin).^2)/100).^(1/2);
+vel_soft = X_arq_float_soft * 0.163821015;
+
+desv_pad = (sum((vel_soft - X_bin).^2)/100).^(1/2);
+t = 1:1:100;
+plot(t,vel_soft,'g--',t,X_bin,'--b')
+xlabel('amostra i')
+ylabel('Velocidade [m/s]')
+legend('velocidade calculada pelo software', 'velocidade calculada pelo hardware')
